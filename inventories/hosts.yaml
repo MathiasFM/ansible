@@ -1,0 +1,6 @@
+my_servers:
+  hosts:
+    server01:
+      ansible_host: "{{ server01_host }}"
+      ansible_user: "{{ server01_user }}"
+      ansible_ssh_private_key_file: "{{ server01_ssh_key }}"
